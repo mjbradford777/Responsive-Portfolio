@@ -1,0 +1,100 @@
+html {
+    font-size: 16px;
+}
+
+nav {
+    position: relative;
+    left: 63rem;
+    bottom: 6rem;
+}
+
+main {
+    margin: 0 auto;
+    height: 35rem;
+}
+
+header {
+    height: 5.25rem;
+    margin-bottom: 1.5rem;
+}
+
+img {
+    width: 250px;
+    height: 125px;
+}
+
+figcaption {
+    color: white;
+    background-color: #4aaaa5;
+    position: relative;
+    bottom: 2.5rem;
+    width: 250px;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 95rem;  
+    text-align: center;
+    height: 4rem;
+    line-height: 500%;
+    border-top: 4px solid #4aaaa5;
+}
+
+.left {
+    position: relative;
+    left: 7.5rem;
+}
+
+.right {
+    position: relative;
+    left: 30rem;
+}
+
+#about {
+    padding-right: 1rem;
+    border-right: solid 1px lightgray;
+}
+
+#contact {
+    padding: 0 1rem;
+    border-right: solid 1px lightgray;
+}
+
+#portfolio {
+    padding-left: 1rem;
+}
+
+#myName {
+    position: relative;
+    left: 17.5rem;
+    bottom: 1.35rem;
+    color: white;
+    background-color: #4aaaa5;
+    width: 18.5rem;
+    padding: 1.5rem;
+}
+
+#portfolioHeader {
+    padding: 1rem;
+    border-bottom: 1px solid lightgray;
+    margin: 1rem;
+}
+
+#pro2 {
+    bottom: 10.25rem;
+}
+
+#pro3 {
+    bottom: 10.25rem;
+}
+
+#pro4 {
+    bottom: 20.5rem;
+}
+
+#pro5 {
+    bottom: 20.5rem;
+}

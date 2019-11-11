@@ -1,0 +1,73 @@
+html {
+    font-size: 16px;
+}
+
+nav {
+    position: relative;
+    left: 63rem;
+    bottom: 6rem;
+}
+
+main {
+    margin: 0 auto;
+    height: 21rem;
+}
+
+header {
+    height: 5.25rem;
+    margin-bottom: 1.5rem;
+}
+
+img {
+    width: 10rem;
+    height: 13rem;
+    float: left;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 95rem;  
+    text-align: center;
+    height: 4rem;
+    line-height: 500%;
+    border-top: 4px solid #4aaaa5;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#about {
+    padding-right: 1rem;
+    border-right: solid 1px lightgray;
+}
+
+#contact {
+    padding: 0 1rem;
+    border-right: solid 1px lightgray;
+}
+
+#portfolio {
+    padding-left: 1rem;
+}
+
+#myName {
+    position: relative;
+    left: 17.5rem;
+    bottom: 1.35rem;
+    color: white;
+    background-color: #4aaaa5;
+    width: 18.5rem;
+    padding: 1.5rem;
+}
+
+#aboutMe {
+    padding: 1rem;
+    border-bottom: 2px solid lightgray;
+    margin: 0.5rem;
+}
