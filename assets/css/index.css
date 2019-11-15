@@ -4,7 +4,7 @@ html {
 
 nav {
     position: relative;
-    left: 63rem;
+    left: 45rem;
     bottom: 6rem;
 }
 
@@ -14,6 +14,7 @@ main {
 }
 
 header {
+    width: 100%;
     height: 5.25rem;
     margin-bottom: 1.5rem;
 }
@@ -29,8 +30,9 @@ img {
 
 footer {
     position: fixed;
+    left: 0;
     bottom: 0;
-    width: 95rem;  
+    width: 100%;  
     text-align: center;
     height: 4rem;
     line-height: 500%;
@@ -73,9 +75,22 @@ a {
 }
 
 @media screen and (max-width: 980px) {
+    header {
+        width: 100%;
+    }
+    
     nav {
         position: relative;
-        left: 40rem;
+        left: 32.5rem;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    footer {
+        left: 0;
+        width: 100%;
     }
     
     #myName {
@@ -85,18 +100,27 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+    }
+    
     nav {
         position: relative;
-        left: 30rem;
+        left: 25rem;
     }
 
     main {
-        width: 45rem;
+        width: 95%;
+        height: 50%;
+    }
+
+    p {
+        margin-left: 0.5rem;
     }
 
     footer {
         left: 0;
-        width: 46.75rem;
+        width: 100%;
     }
     
     #myName {
@@ -112,18 +136,19 @@ a {
     
     nav {
         position: relative;
-        left: 8.5rem;
+        left: 11rem;
         bottom: 2.25rem;
     }
 
     main {
         width: 30rem;
-        height: 30rem;
+        height: 60rem;
+        margin-bottom: 6rem;
     }
     
     img {
-        width: 384px;
-        height: 448px;
+        width: 90%;
+        height: 560px;
     }
 
     p {
@@ -132,13 +157,13 @@ a {
     
     footer {
         left: 0;
-        width: 31.5rem;
+        width: 100%;
     }
     
     #myName {
         position: relative;
         left: 0;
-        width: 27.4rem;
+        width: 92%;
         text-align: center;
     }
 }

@@ -98,3 +98,74 @@ footer {
 #pro5 {
     bottom: 20.5rem;
 }
+
+@media screen and (max-width: 980px) {
+    nav {
+        position: relative;
+        left: 40rem;
+    }
+
+    main {
+        width: 57rem;
+    }
+
+    footer {
+        left: 0;
+        width: 60.5rem;
+    }
+    
+    #myName {
+        position: relative;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        position: relative;
+        left: 30rem;
+    }
+
+    main {
+        width: 45rem;
+    }
+
+    footer {
+        left: 0;
+        width: 46.75rem;
+    }
+    
+    #myName {
+        position: relative;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        height: 7rem;
+    }
+    
+    nav {
+        position: relative;
+        left: 8rem;
+        bottom: 2.25rem;
+    }
+
+    main {
+        width: 30rem;
+        height: 30rem;
+    }
+    
+    footer {
+        left: 0;
+        width: 31.5rem;
+    }
+    
+    #myName {
+        position: relative;
+        left: 0;
+        width: 27.4rem;
+        text-align: center;
+    }
+}
